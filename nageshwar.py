@@ -1,5 +1,5 @@
 a=int(input())
 if (a>0):
     print('Positive')
-else:
-    print('invalid input')
+elif (a<0):
+    print('Negative')
